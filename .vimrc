@@ -19,7 +19,7 @@ set showmatch		" Display match of parenthesis
 set nowrap		" Doesn't line change automatically
 set wmnu		" tab 자동완성시 가능한 목록으 보여줌
 set cursorline  " Make a cursorline
-set paste       " When pasting, eliminate indent
+""set paste       " When pasting, eliminate indent, causes bad indent function
 set visualbell  " Show bright
 
 
