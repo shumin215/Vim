@@ -7,7 +7,7 @@ set shiftwidth=4	" set shift is 4 blocks
 set tabstop=4		" set tab key is 4 blocks
 set ignorecase		" When searching both small letter and capital word
 set hlsearch		" highlight when searching
-set expandtab		" space instead of tab key
+"set expandtab		" space instead of tab key
 set nocompatible	" Can use cursor key
 set fileencodings=utf-8,euc-kr	" set file encoding type
 set bs=indent,eol,start	" It's possible to use backspace key
