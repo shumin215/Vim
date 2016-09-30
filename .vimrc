@@ -31,7 +31,6 @@ au BufNewFile,BufRead *.cuh set ft=cuda " For CUDA
 au BufNewFile,BufRead *.aap setf aap    " For Verilog
 au BufNewFile,BufRead *.abc setf abc    " For Verilog
 au BufNewFile,BufRead *.abl setf abel   " For Verilog
-set nocompatible
 filetype off
  
 set rtp+=~/.vim/bundle/vundle/
@@ -49,7 +48,6 @@ Plugin 'AutoComplPop'
 Plugin 'Syntastic'
 Plugin 'minibufexpl.vim'
 Plugin 'SuperTab'
-Plugin 'AutoClose'
 
 "=============== Commment Macro ============="
 func! CmtOn()   "Comment On
